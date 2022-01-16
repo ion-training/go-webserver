@@ -58,7 +58,7 @@ $ tree
 0 directories, 4 files
 
 ```
-$ curl localhost:3000
-<h1>welcome to my site!</h1>
+$ curl localhost:3000\
+\<h1>welcome to my site!</h1>
 $
 ```
