@@ -16,7 +16,7 @@ Compile the code
 go build main.go
 ```
 
-# Run main binary (the webserver)
+# Start the webserver (build binary)
 ```
 ./main
 ```
@@ -30,6 +30,7 @@ Examples of request URLs:
 
 # Stop the webserver
 Use CTRL+C
+
 
 # Sample output
 ```
@@ -58,5 +59,6 @@ $ tree
 
 ```
 $ curl localhost:3000
-<h1>welcome to my site!</h1>$
+<h1>welcome to my site!</h1>
+$
 ```
