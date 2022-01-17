@@ -33,11 +33,7 @@ Use CTRL+C
 
 
 # Sample output
-```
-$ ./main
-Starting the server on :3000...
 
-```
 ```
 $ tree
 .
@@ -46,6 +42,7 @@ $ tree
 └── main.go
 
 0 directories, 3 files
+
 $ go build main.go
 $
 $ tree
@@ -56,9 +53,14 @@ $ tree
 └── main.go
 
 0 directories, 4 files
+```
+```
+$ ./main
+Starting the server on :3000...
 
 ```
-$ curl localhost:3000\
-\<h1>welcome to my site!</h1>
-$
+
+```
+$ curl localhost:3000
+<h1>welcome to my site!</h1>$
 ```
